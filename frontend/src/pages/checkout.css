@@ -1,0 +1,31 @@
+.checkout-container {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.checkout-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.checkout-container input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.checkout-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
