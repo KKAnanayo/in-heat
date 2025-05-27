@@ -1,7 +1,7 @@
 // src/components/Header.js
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Header.css';
+import './Navar.css';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

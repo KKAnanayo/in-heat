@@ -7,10 +7,12 @@ import Product from './pages/product';
 import Checkout from './pages/checkout';
 import Profile from './pages/Profile';
 import OrderSummary from './pages/OrderSummary';
+import Header from './pages/navar';
 
 function App() {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
